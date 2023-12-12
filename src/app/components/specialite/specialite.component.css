@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.container .fullbox{
+    
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: #00000029 0 3px 10px, #0000000f 0 0 0 1px;
+
+}
+
+
+.container .fullbox .box {
+   
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: left;
+
+}
+
+
+.container .fullbox .box p {
+
+width: 100%;
+
+}
+    
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+
+}

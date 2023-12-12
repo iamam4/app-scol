@@ -1,0 +1,32 @@
+<h3>Etudiant</h3>
+
+
+<div class="button-div">
+    <button routerLink="/etudiant-hors-paris">Etudiants résident Hors-Paris</button>
+    <button routerLink="/etudiant-paris">Etudiants résident à Paris</button>
+    </div>
+
+<div class="container">
+    <div class="fullbox" *ngFor="let etudiant of tabetu" >
+        <div class="box">
+          <p style="font-weight: bold;">{{etudiant._nom}} {{etudiant._prenom}}</p>
+        </div>
+    
+        <div class="box">
+          <p>Adresse : 
+          {{etudiant._rue}}, {{etudiant._cp}}, {{etudiant._ville}} </p>
+    
+        </div>
+  
+          <div class="box">
+            <p >Genre : {{etudiant._genre}}</p>
+    
+          </div>
+          <div class="box">
+            <p >Age : {{etudiant._age}}</p>
+          </div>
+        </div>
+      
+      
+    
+    </div>
